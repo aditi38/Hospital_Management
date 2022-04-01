@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Registration </title>
+</head>
+<body>
+    <header>
+        <div class=" container header"><div class="row">
+              <h2 class="logo "><span>L</span>ife<span>C</span>are.</h2>
+            <nav class="nav ">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="registartion.html">Registration</a></li>
+                    <li><a href="facility.html">Facility</a></li>
+                    <li><a href="#Doctors">Doctors</a></li>
+                    <li><a href="#about us">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="fas fa-bars"></div>
+        </div></div>
+    </header>
+
+    
+    <div class="container-fluid" style="background-image: url(background.jpg);">
+        <div class="row" >
+           <!-- <img class="img1 img-fluid" src="back1.jpg" alt="">-->
+                <div class=" container-fluid col-md-8 align-center login1">
+                <h2 style="text-align:center">Registration Form</h2>
+                
+                <form action="/registrationmailhandler.php" method="post">
+                  <div class="container1">
+                    <label for="Fname"><b> Name</b></label>
+                    <input type="text" placeholder="Enter name" name="name" required><br><br>
+
+                    <label for="gender"><b>Gender</b></label>
+                    <select class="button" name="" id=""><option>Select</option><option>Male</option><option>Female</option></select>
+                    <br><br>
+
+                    <label for="Weight"><b>Weight</b></label>
+                    <input type="text" placeholder="Enter Weight" name="Weight" required>
+
+                    <label for="Email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="contact no."><b>Contact no.</b></label>
+                    <input type="text" placeholder="Enter Contact no." name="contactno" required>
+
+                    <label for="address"><b>Address</b></label>
+                    <input type="text" placeholder="Enter Address" name="address" required>
+                        
+                    <button type="submit" name="submit" >Submit</button>
+                    
+                  </div>
+                </form>
+                </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start  text-muted" style="    background:rgb(221, 225, 233)">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <h2 class="logo"><span>L</span>ife<span>C</span>are.</h2>
+        <h6>contact us:-</h6>
+        <p>
+          Email: lifecare.hospital@gmail.com 
+        </p>
+        <h6>@copyright by lifecare</h6>
+
+
+</footer>
+
+
+    
+
+
+    
+</body>
+</html>

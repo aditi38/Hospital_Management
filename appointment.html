@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Appointment</title>
+    <link rel="shortcut icon" href="images/logo.PNG" type="image/x-icon">
+
+</head>
+<body>
+    <header
+      style=" background: #C9D6FF; 
+      background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+      background: linear-gradient(to right, #E2E2E2, #C9D6FF); "> 
+     <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid">
+          
+          <h2 class="navbar-brand logo "><img class="img-fluid" src="images/logo.PNG" alt=""></h2>
+          <div class="collapse navbar-collapse" id="Navbar">
+               <ul class="navbar-nav mr-auto ">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="facility.html">Facility</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                 
+                </ul>
+  
+          </div>    
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger"/>
+    
+        </div>
+  
+      </nav>  
+     
+   
+    </header>
+
+    
+    <div class="container-fluid" >
+        <div class="row" >
+           <!-- <img class="img1 img-fluid" src="back1.jpg" alt="">-->
+                <div class=" container-fluid col-md-8 align-center login1">
+                <h2 style="text-align:center">Appointment Form</h2>
+                
+                <form action="appointmentmailhandler.php" method="post">
+                  <div class="container1">
+                    <label for="Fname"><b> Name</b></label>
+                    <input type="text" placeholder="Enter name" name="name" required><br><br>
+
+                    <label for="gender"><b>Gender</b></label>
+                    <select class="button" name="gender" id=""><option>Select</option><option>Male</option><option>Female</option></select>
+                    <br><br>
+
+                    <label for="appointment"><b>Appointment Date</b></label>
+                    <input type="date" id="appointment" name="date" placeholder="enter appointment date" required><br><br>
+
+                    <label for="Email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required><br>
+                
+
+                    <label for="contact no."><b>Contact no.</b></label>
+                    <input type="text" placeholder="Enter Contact no." name="contactno" required><br>
+
+                    <label for="address"><b>Address</b></label>
+                    <input type="text" placeholder="Enter Address" name="address" required><br>
+
+                    <label for="Disease"><b>Disease</b></label>
+                    <input type="text" placeholder="Enter Disease" name="Disease" required><br>
+                        
+                    <button type="submit" value="Send" name="submit">Submit</button>
+                    
+                  </div>
+                </form>
+                </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start  text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <h2 class="logo"><span>L</span>ife<span>C</span>are.</h2>
+        <h6>contact us:-</h6>
+        <p>
+          Email: lifecare.hospital@gmail.com 
+        </p>
+        <h6>@copyright by lifecare</h6>
+
+
+</footer>
+
+
+    
+
+
+    
+</body>
+</html>

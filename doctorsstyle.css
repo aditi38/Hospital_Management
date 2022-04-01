@@ -1,0 +1,63 @@
+.main-wrapper-inside img{
+    width: 200px;
+    height: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+    border-radius: 50%;
+}    
+.card{
+    display: flex;
+}
+
+.fas,.far{
+    font-size: 25px;
+
+}
+.button-inside{    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+   background-image: radial-gradient(
+      circle at 50% 120%,
+      #ff5690,
+      #d61a5a 80%,
+      #941a44 100%
+    );
+}
+.button-wrapper{
+    position: relative;
+    position: absolute;
+    display: flex;
+    right: 40%;
+    top: 42%;
+    flex-direction: row-reverse;
+}
+.first,.second,.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    
+
+}
+.button{
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    background:#0079a0;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 500ms cubic-bezier(0.19,1,0.22,1);
+    box-shadow: -1px 2px 12px rgba(0,0,0,0.4);
+    will-change: transform;
+}
